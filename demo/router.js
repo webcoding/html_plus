@@ -12,32 +12,11 @@ router.map({
     name: 'index',  // 路径别名，可无
     component: require('./pages/index.vue')
   },
-  '/layout': {
-    component: require('./pages/layout.vue')
-  },
   '/about': {
     component: require('./pages/about.vue')
   },
   '/typography': {
     component: require('./pages/typography.vue')
-  },
-  '/rem': {
-    component: require('./pages/rem.vue')
-  },
-  '/content': {
-    component: require('./pages/content.vue')
-  },
-  '/icon': {
-    component: require('./pages/icon.vue')
-  },
-  '/group': {
-    component: require('./pages/group.vue')
-  },
-  '/list': {
-    component: require('./pages//list/list-block.vue')
-  },
-  '/badge': {
-    component: require('./pages/badge.vue')
   },
   '/button': {
     component: require('./pages/form/button.vue')
