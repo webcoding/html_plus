@@ -24,6 +24,29 @@
 
 <style lang="sass">
 @import "../src/_styles/smacss";
+
+small{
+  color: gray;
+}
+.content-padded{
+  /*line-height: 1.8;*/
+}
+.content-padded {
+  h1,h2,h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  h4,h5,h6{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+}
+.example{
+  margin-top: 1rem;
+}
+
+
 // @import "../../src/style/base/reset";
 //
 // html, body {

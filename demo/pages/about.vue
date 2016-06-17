@@ -3,14 +3,16 @@
     <div class="page-content">
       <div class="content-block-title">关于 H5_plus</div>
       <div class="content-block">
-        <h2>H5_plus有两个目标：</h2>
+        <h2>H5_plus 有以下几个目标：</h2>
         <ol>
-          <li>扩展 HTML 标签功能</li>
+          <li>使用简单</li>
+          <li>提供扩展的 HTML 标签</li>
           <li>提供经典布局供参考</li>
         </ol>
-        <p>编写网页的复杂功能也能像 html 原始标签一样使用简单，这部分通过扩展 HTML 标签来实现功能增强；另外要提供大量的优秀经典布局供参考，以快速实现需求</p>
+        <p>说明：编写网页的复杂功能也能像 html 原始标签一样使用简单，这部分通过扩展 HTML 标签来实现功能增强；另外要提供大量的优秀经典布局供参考，以快速实现需求</p>
         <h3>功能页面不要太细分</h3>
         <p>demo 页面各种功能不要太细分，有许多小功能，直接应用即可</p>
+        <p>badge、button根本就不用作为组件实现</p>
         <p>实现可以更贴近 app 的实现，各 view 的状态怎么保存也处理一下</p>
 
         <h2>实现</h2>
