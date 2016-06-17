@@ -3,9 +3,6 @@
     <div class="page-content">
       <div class="content-block-title">Welcome To H5_plus@Vue&Framework7</div>
       <div class="content-block"><a href="#!/about" class="btn btn-hollow-primary block radius">About H5_plus</a></div>
-      <div class="content-block hide">
-        <p>H5_plus：1、扩展 HTML 标签功能 2、提供经典布局供参考</p>
-      </div>
       <group title="H5_plus Components">
         <div class="list-block">
           <template v-for="item in items">

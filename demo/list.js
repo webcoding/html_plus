@@ -1,5 +1,5 @@
 
-'use strict'
+"use strict";
 
 
 // 所有的 tag 标签，全部使用单数形式
@@ -22,14 +22,14 @@ var list_tags = [
     "type": "base",
     "status": "doing",
   },
-  // {
-  //   "icon": "",
-  //   "link": "button",
-  //   "title": "按钮",
-  //   "small": "button",
-  //   "type": "form",
-  //   "status": "doing",
-  // },
+  {
+    "icon": "",
+    "link": "button",
+    "title": "按钮",
+    "small": "button",
+    "type": "form",
+    "status": "doing",
+  },
   {
     "icon": "",
     "link": "switch",
@@ -137,4 +137,4 @@ var list_tags = [
   // },
 ];
 
-module.exports = list_tags
+module.exports = list_tags;

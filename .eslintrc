@@ -1,0 +1,19 @@
+{
+  "rules": {
+    "indent": [2, 2],
+    "linebreak-style": [2, "unix"],
+    # "quotes": [2, "single"],
+    "comma-dangle": ["error", "always-multiline"], # 对象属性，多行时可以最后一个带逗号
+    "semi": [2, "always"],
+    "brace-style": [2, "1tbs"],
+    "space-infix-ops": 2,
+    "arrow-parens": 0,
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "root": true,
+  "extends": "eslint:recommended"
+}
