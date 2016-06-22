@@ -8,7 +8,7 @@
 
 /*
   组件分类：
-  - HTML 标签扩展，如: CheckSwitch Dialog Toast Progress Preloader SearchBar ActionSheet
+  - HTML 标签扩展，如: Switch Dialog Toast Progress Preloader SearchBar ActionSheet
   - 经典布局 如：card list-block login-screen msg-page
     (极尽升华，仅使用一个或两个标签组合实现，可用于作为 HTML 标签的扩展)
 */

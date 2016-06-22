@@ -17,9 +17,9 @@ import router from './router';
 
 // register filters globally
 // import App form './App';
-// router.start(App, '#app');
+// router.start(App, '#root');
 
-router.start(require( './App.vue' ), '#app');
+router.start(require( './App.vue' ), '#root');
 // router.start(require( './App.vue' ), 'body');
 
 // import fastClick from 'fastclick';

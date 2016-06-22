@@ -2,14 +2,26 @@ var vue = require('vue-loader')
 var webpack = require('webpack')
 
 module.exports = {
+  // devServer: {
+  // },
+  // hot: true,
+  // contentBase: "./docs",
+  // proxy: {
+  //   "*": "http://localhost:8080"
+  // },
+  // headers: { "X-Custom-Header": "yes" },
+
+
   //页面入口文件配置
-  entry: './demo/main.js',
-  // entry: './example/main.js',
+  // entry: './docs/main.js', //多个就用数组
+  entry: [
+    './demo/main.js',
+  ],
   //入口文件输出配置
   output: {
     path: './static',
-    publicPath: '/static/',
-    filename: 'build.js'
+    publicPath: '/static/', //替换 cdn 路径
+    filename: '[name].bundle.js'
   },
   module: {
     //加载器配置

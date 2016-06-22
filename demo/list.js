@@ -14,6 +14,7 @@
 */
 
 var list_tags = [
+  //基本
   {
     "icon": "",
     "link": "typography",
@@ -24,11 +25,37 @@ var list_tags = [
   },
   {
     "icon": "",
+    "link": "grid",
+    "title": "栅格",
+    "small": "grid",
+    "type": "base",
+    "status": "todo",
+  },
+
+  //表单
+  {
+    "icon": "",
     "link": "button",
     "title": "按钮",
     "small": "button",
-    "type": "form",
+    "type": "base",
     "status": "doing",
+  },
+  {
+    "icon": "",
+    "link": "radio",
+    "title": "单选框",
+    "small": "radio",
+    "type": "form",
+    "status": "todo",
+  },
+  {
+    "icon": "",
+    "link": "checkbox",
+    "title": "多选框",
+    "small": "checkbox",
+    "type": "form",
+    "status": "todo",
   },
   {
     "icon": "",
@@ -38,6 +65,32 @@ var list_tags = [
     "type": "form",
     "status": "doing",
   },
+  {
+    "icon": "",
+    "link": "input-number",
+    "title": "数字输入框",
+    "small": "input-number",
+    "type": "form",
+    "status": "todo",
+  },
+  {
+    "icon": "",
+    "link": "select",
+    "title": "选择器",
+    "small": "select",
+    "type": "form",
+    "status": "todo",
+  },
+
+  //布局
+  // {
+  //   "icon": "",
+  //   "link": "alert",
+  //   "title": "列表",
+  //   "small": "List Block",
+  //   "type": "layout",
+  //   "status": "doing",
+  // },
   // {
   //   "icon": "",
   //   "link": "list",
@@ -68,6 +121,14 @@ var list_tags = [
     "title": "标题栏",
     "small": "navbar",
     "type": "bar",
+    "status": "doing",
+  },
+  {
+    "icon": "",
+    "link": "tree",
+    "title": "树形控件",
+    "small": "tree",
+    "type": "layout",
     "status": "doing",
   },
   // {

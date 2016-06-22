@@ -2,14 +2,15 @@
 // views 根
 
 <template>
-  <div class="views pages">
+  <!-- <aside class="aside-container"></aside> -->
+  <section class="main-container views pages">
     <!-- main view -->
     <router-view
       class="view"
       keep-alive
       transition="slide">
     </router-view>
-  </div>
+  </section>
   <plus-debug></plus-debug>
 </template>
 
@@ -23,7 +24,7 @@
 </script>
 
 <style lang="sass">
-@import "../src/_styles/smacss";
+@import "../src/_style/theme/default/smacss";
 
 small{
   color: gray;
@@ -32,13 +33,19 @@ small{
   /*line-height: 1.8;*/
 }
 .content-padded {
-  h1,h2,h3{
+  &>h1,
+  &>h2,
+  &>h3{
     margin-top: 2rem;
     margin-bottom: 1rem;
+    font-weight: bold;
   }
-  h4,h5,h6{
+  &>h4,
+  &>h5,
+  &>h6{
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+    font-weight: bold;
   }
 
 }

@@ -27,6 +27,9 @@ router.map({
   '/grid': {
     component: require('./pages/grid.vue')
   },
+  '/tree': {
+    component: require('./pages/tree.vue')
+  },
   // '/modal': {
   //   component: require('./pages/modal.vue')
   // },
