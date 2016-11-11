@@ -17,8 +17,8 @@
           <x-button type="danger">Danger</x-button>
           <x-button type="dark">Dark</x-button>
           <br>
-          <x-button hollow type="primary">镂空</x-button>
-          <x-button hollow type="success">镂空</x-button>
+          <x-button hollow type="primary">空心按钮</x-button>
+          <x-button hollow type="sub">空心按钮</x-button>
           <br>
           <x-button size="xs">Default xs</x-button>
           <x-button size="sm">Default sm</x-button>
@@ -26,6 +26,7 @@
           <x-button size="lg">Default lg</x-button>
           <x-button size="xl">Default xl</x-button>
         </div>
+        <p></p>
         <h3>状态类</h3>
         <div class="example">
           <x-button block>Default Block</x-button>
@@ -39,6 +40,7 @@
           <x-button type="danger" disabled>禁用danger</x-button>
           <x-button type="primary" hollow disabled>禁用镂空</x-button>
         </div>
+
         <h3>按钮组扩展</h3>
         <div class="example">
           <group class="btn-group">

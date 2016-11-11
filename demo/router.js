@@ -18,6 +18,22 @@ router.map({
   '/typography': {
     component: require('./pages/typography.vue')
   },
+  //test
+  '/icon': {
+    component: require('./pages/test/icon.vue')
+  },
+  '/badge': {
+    component: require('./pages/test/badge.vue')
+  },
+  // '/icon': {
+  //   component: require('./pages/test/icon.vue')
+  // },
+  // '/icon': {
+  //   component: require('./pages/test/icon.vue')
+  // },
+  '/devdocs': {
+    component: require('./pages/devdocs/index.vue')
+  },
   '/button': {
     component: require('./pages/form/button.vue')
   },

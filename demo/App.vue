@@ -11,7 +11,7 @@
       transition="slide">
     </router-view>
   </section>
-  <plus-debug></plus-debug>
+  <!-- <plus-debug></plus-debug> -->
 </template>
 
 <script type="text/babel">
